@@ -10,7 +10,7 @@
 public class Task1_1 {
 
     public static void main(String[] args) {
-
+-
         // ①int型の hogeInt という名前の変数を宣言し、値「50」で初期化
         int hogeInt = 50;
         // ②Stringクラスの hogeString という名前の変数を宣言、値「テスト」で初期化
@@ -23,16 +23,15 @@ public class Task1_1 {
         int hogeInt1 = 50;
         int hogeInt2 = 100;
         // ⑤変数 hogeString を値「合格」で上書き
-        String hogeString1 = "テスト";
-        String hogeString2 = "合格";
+        String hogeString = "テスト" = "合格";
         // ⑥変数 hogeInt の値を表示
-        System.out.println(100);
+        System.out.println(hogeInt);
         // ⑦下記の処理について、何をしているのかコメントを記入してください
         // [hogeStringを表示している]]
         System.out.println(hogeString2);
 
         // ⑧変数 hogeDouble の値を表示
-        System.out.println(0.2);
+        System.out.println(hogeDouble);
 
     }
 }
