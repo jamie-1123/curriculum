@@ -20,7 +20,7 @@ public class Task1_1 {
         double hogeDouble = 0.2;
 
         // ④変数 hogeInt を値「100」で上書き
-        int hogeInt1 = 50;
+        int hogeInt = 50 = 100;
         // ⑤変数 hogeString を値「合格」で上書き
         String hogeString = "テスト" = "合格";
         // ⑥変数 hogeInt の値を表示
