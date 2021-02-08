@@ -21,14 +21,13 @@ public class Task1_1 {
 
         // ④変数 hogeInt を値「100」で上書き
         int hogeInt1 = 50;
-        int hogeInt2 = 100;
         // ⑤変数 hogeString を値「合格」で上書き
         String hogeString = "テスト" = "合格";
         // ⑥変数 hogeInt の値を表示
         System.out.println(hogeInt);
         // ⑦下記の処理について、何をしているのかコメントを記入してください
         // [hogeStringを表示している]]
-        System.out.println(hogeString2);
+        System.out.println(hogeString);
 
         // ⑧変数 hogeDouble の値を表示
         System.out.println(hogeDouble);
