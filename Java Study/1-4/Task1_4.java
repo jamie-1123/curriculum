@@ -13,8 +13,8 @@ public class Task1_4 {
 
     // 定数（アカウント情報）
     // ① 登録されている名前（USER_RNAME）とパスワード（USER_PASSWORD）を定数で定義してください。
-    private static final String USER_RNAME = "jamie";
-    private static final String USER_PASSWORD = "password";
+    private static final String USER_RNAME = "alice";
+    private static final String USER_PASSWORD = "pass";
 
     // 定数（メッセージ）
     private static final String CONST_MSG_SUCCESS = "ログイン成功です。";
@@ -35,27 +35,26 @@ public class Task1_4 {
          String pass = "pass";
 
         // ② 変数nameの値が「 alice 」、変数passの値が「 pass 」であった場合、「 ログイン成功です 」と出力してください。
-        if (name.equals("alice")) {
-            System.out.println("ログイン成功です");
-        } else if (pass.equals("pass")) {
-            System.out.println("ログイン成功です");
+        if (name $$ pass){
+            System.out.println(CONST_MSG_SUCCESS);
         }
         // ③ 変数nameの値のみ正しい場合、定数を使用して「 パスワードに誤りがあります。 」と出力してください。
         if (name.equals("alice")) {
             
-        } else if (pass == pass) {
-            System.out.println("パスワードに誤りがあります。");
+        } else if (pass.equals("pass")) {
+            System.out.println(CONST_MSG_ERROR_PASS);
         }
+
         // ④ 変数passの値のみ正しい場合、定数を使用して「 名前に誤りがあります。 」と出力してください。
         if (pass.equals("pass")) {
            
-        } else if (name == name) {
-          System.out.println("名前に誤りがあります。"); 
+        } else if (name.equals("alice")){
+          System.out.println(CONST_MSG_ERROR_NAME); 
         } 
 
         // ⑤ 変数nameも変数passの値も間違っていた場合は、定数を使用して「 入力情報に誤りがあります。 」と出力してください。
         else {
-            System.out.println("入力情報に誤りがあります。");
+            System.out.println(CONST_MSG_ERROR_INPUT);
         }
     }
 
