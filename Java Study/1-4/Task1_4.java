@@ -40,16 +40,10 @@ public class Task1_4 {
         }
         // ③ 変数nameの値のみ正しい場合、定数を使用して「 パスワードに誤りがあります。 」と出力してください。
         if (name.equals("alice")) {
-            
-        } else if (pass.equals("pass")) {
-            System.out.println(CONST_MSG_ERROR_PASS);
         }
 
         // ④ 変数passの値のみ正しい場合、定数を使用して「 名前に誤りがあります。 」と出力してください。
         if (pass.equals("pass")) {
-           
-        } else if (name.equals("alice")){
-          System.out.println(CONST_MSG_ERROR_NAME); 
         } 
 
         // ⑤ 変数nameも変数passの値も間違っていた場合は、定数を使用して「 入力情報に誤りがあります。 」と出力してください。
