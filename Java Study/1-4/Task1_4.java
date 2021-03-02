@@ -35,15 +35,18 @@ public class Task1_4 {
          String pass = "pass";
 
         // ② 変数nameの値が「 alice 」、変数passの値が「 pass 」であった場合、「 ログイン成功です 」と出力してください。
-        if (name.equals("alice") && pass.equals("pass")){
+        if ("alice".equals(name) && "pass".equals(pass)){
             System.out.println(CONST_MSG_SUCCESS);
         }
         // ③ 変数nameの値のみ正しい場合、定数を使用して「 パスワードに誤りがあります。 」と出力してください。
-        if (name.equals("alice")) {
+        else if ("alice".equals(name)){
+             System.out.println(CONST_MSG_ERROR_PASS);
         }
 
+
         // ④ 変数passの値のみ正しい場合、定数を使用して「 名前に誤りがあります。 」と出力してください。
-        if (pass.equals("pass")) {
+        else if ("pass".equals(pass)){
+            System.out.println(CONST_MSG_ERROR_NAME);
         } 
 
         // ⑤ 変数nameも変数passの値も間違っていた場合は、定数を使用して「 入力情報に誤りがあります。 」と出力してください。
