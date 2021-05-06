@@ -13,11 +13,12 @@ public class Main {
     public static void main(String[] args) {
 
         // ③ Taskクラスのインスタンスを生成し、「doTask()」メソッドを呼び出しなさい。
-    	Task doTask = new Task();
-    	doTask.plus(0);
-  
-    	
+    	Task task = new Task();
+        task.doTask();
+
+
 
     }
-
 }
+
+
