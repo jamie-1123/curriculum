@@ -29,10 +29,8 @@ package study;
 	         *     また、課題の画像と同じ表示になるように
 	         *     printFruitsの引数にはFruitsConstantsに指定されてる定数を設定してください。
 	         */
-			String fruits = FruitsConstants.FRUITS_LEMON_04;
-			int count = FruitsConstants.FRUITS_COUNT_20;
 
-			Fruits.printFruits(fruits,count);
+			Fruits.printFruits(FruitsConstants.FRUITS_LEMON_04, FruitsConstants.FRUITS_COUNT_20);
 			}
 
 
