@@ -4,6 +4,9 @@
         width: 300px;
     }
    
+    ・header {
+        width: 300px;
+    }
    
 
 
@@ -31,9 +34,16 @@
     .bottom {
         width: 200px;
     }
+
+    .footer {
+        width: 300px;
+    }
 }
 
+
+
 @media screen and (max-width: 479px) {
+    
 
     .wrapper {
         width: 150px;
@@ -42,31 +52,33 @@
 
     }
 
-.header {
-    width: 150px;
-}
+    .header {
+         width: 150px;
+    }
 
-.side-a {
-    width: 150px;
-}
-
-.top-center {
-    width: 150px;
-}
-
-.top-bottom {
-    width: 150px;
-}
-
-.top-right {
-    width: 150px;
-}
-
-.bottom {
-    width: 150px;
-}
+    .top-right {
+        width: 150px;
+    }
     
-.footer {
-    width: 150px;
-}
+    .side-a {
+         width: 150px;
+    }
+
+
+    .top-center {
+        width: 150px;
+    }
+
+    .top-bottom {
+        width: 150px;
+    }
+
+
+    .bottom {
+        width: 150px;
+    }
+    
+    .footer {
+        width: 150px;
+    }
 }
