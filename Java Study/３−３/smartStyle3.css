@@ -1,0 +1,45 @@
+@media screen and (max-width: 479px) {
+    
+    .header {
+        height: 200px;
+        width: 200px;
+    }
+
+    .header__box {
+        height: 160px;
+        width: 60px;
+        right: 70px;
+    }
+
+    .header__box__parts {
+        float: none;
+        margin: 0 10px 10px 10px; 
+    }
+
+    .main {
+        height: 300px;
+        width: 200px;
+    }
+
+    .main__left {
+        height: 90;
+        width: 200px;
+        float: none;
+    }
+
+    .main__right {
+        height: 210px;
+        width: 200px;
+        float: none;
+    }
+
+    .main__right__box {
+        top: 20px;
+        left: 30px;
+    }
+
+    .footer {
+        width: 200px;
+    }
+
+}   
