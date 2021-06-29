@@ -3,13 +3,33 @@
     .wrapper {
         width: 300px;
     }
-   .right {
-       width: 200px;
+   
+   
+
+
+    .side-a {
+       width: 100px;
    }
 
     
-    .footer {
-        width: 300px;
+    .top-center {
+        width: 125px;
+    }
+
+    .top-right {
+        width: 75px;
+    }
+
+    .top-bottom {
+        width: 125px;
+    }
+    
+    .top-right {
+        width: 75px;
+    }
+    
+    .bottom {
+        width: 200px;
     }
 }
 
@@ -22,5 +42,31 @@
 
     }
 
+.header {
+    width: 150px;
+}
+
+.side-a {
+    width: 150px;
+}
+
+.top-center {
+    width: 150px;
+}
+
+.top-bottom {
+    width: 150px;
+}
+
+.top-right {
+    width: 150px;
+}
+
+.bottom {
+    width: 150px;
+}
     
+.footer {
+    width: 150px;
+}
 }
