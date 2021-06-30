@@ -16,11 +16,16 @@ body {
     margin: 0 auto;
 }
 
+.box {
+    display: flex;
+}
+
 .header {
     width: 400px;
     height: 100px;
     background-color: #141f40;
 }
+
 
 
 .side-a {
