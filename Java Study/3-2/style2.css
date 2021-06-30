@@ -16,10 +16,6 @@ body {
     margin: 0 auto;
 }
 
-.box {
-    display: flex;
-}
-
 .header {
     width: 400px;
     height: 100px;
@@ -34,6 +30,14 @@ body {
     height: 250px;
     background-color: #80bfa8;
 }
+
+.top-right {
+    height: 150px;
+    width: 100px;
+    background-color: #ff9e6b;
+    float: right;
+}
+
 
 .top-center {
     height: 50px;
@@ -51,12 +55,7 @@ body {
     float: left;
 }
 
-.top-right {
-    height: 150px;
-    width: 100px;
-    background-color: #ff9e6b;
-    float: right;
-}
+
 
 .bottom {
     height: 100px;

@@ -52,47 +52,47 @@
 
     }
 
-    .box {
-        flex-direction: column;
-    }
+    
     
 
     .header {
          width: 150px;
-         order: 1;
+        
     }
 
-
-    .top-right {
-        width: 150px;
-        order: 3;
-    }
     
     .side-a {
          width: 150px;
-         order: 2;
+         height: 100px;
+         
+    }
+
+    .top-right {
+        width: 150px;
+        height: 100px;
+
     }
 
 
     .top-center {
         width: 150px;
-        order: 4;
+        
     }
 
     .top-bottom {
         width: 150px;
-        order: 5;
+        
     }
 
 
     .bottom {
         width: 150px;
-        order: 6;
+        
     }
     
     .footer {
         width: 150px;
-        order: 7;
+        
     }
 
     
